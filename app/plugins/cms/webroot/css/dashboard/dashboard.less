@@ -1,0 +1,47 @@
+.dashboard {
+
+	ul.item-list {
+		display: inline-block;
+
+		li.item {
+			width: 102px;
+			height: 102px;
+			display: block;
+			list-style: none;
+			float: left;
+			margin-left: 20px;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			> a {
+				display: block;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				outline: none;
+
+				&:active, &:focus { 
+					outline: none; 
+				}
+
+				img {
+					outline: none;
+				}
+			}
+
+			.item-image {
+				width: 100%;
+				height: 85px;
+			}
+
+			.item-text {
+				width: 100%;
+				height: 15px;
+			}
+		}
+
+	}
+
+}

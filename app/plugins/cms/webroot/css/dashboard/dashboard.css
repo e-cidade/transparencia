@@ -1,0 +1,5 @@
+.dashboard ul.item-list{display:inline-block;}.dashboard ul.item-list li.item{width:102px;height:102px;display:block;list-style:none;float:left;margin-left:20px;}.dashboard ul.item-list li.item:first-child{margin-left:0;}
+.dashboard ul.item-list li.item>a{display:block;width:100%;height:100%;text-align:center;outline:none;}.dashboard ul.item-list li.item>a:active,.dashboard ul.item-list li.item>a:focus{outline:none;}
+.dashboard ul.item-list li.item>a img{outline:none;}
+.dashboard ul.item-list li.item .item-image{width:100%;height:85px;}
+.dashboard ul.item-list li.item .item-text{width:100%;height:15px;}

@@ -1,0 +1,41 @@
+div.table-container {
+  margin: 10px 0;
+}
+
+div.table-container table {
+  border-spacing: 0;
+  margin: 0;
+}
+
+div.table-container table th {
+  font-size: 14px;
+}
+
+div.table-container table tr td {
+  border-bottom: 1px solid #CCC;
+  text-transform: uppercase;
+}
+
+div.table-container table tr th {
+  border-bottom: none;
+}
+
+div.table-container table tr:nth-child(2n) {
+  background-color: #EEE;
+}
+
+div.table-container table tr:first-child td,
+div.table-container table tr:first-child th{
+  border-top: 1px solid #CCC;
+}
+
+div.table-container table td, 
+div.table-container table th{
+  border-right: 1px solid #CCC;
+  padding: 3px;
+}
+
+div.table-container table td:first-child, 
+div.table-container table th:first-child{
+  border-left: 1px solid #CCC;
+}

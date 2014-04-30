@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  background: #ededed;
+}
+/* - DIVs Agrupadoras da Portal ----------------------------------  */
+#general_content {
+  background: #FFF;
+}
+#main_header {
+  height: 100px;
+  background: url('../img/bg.png') repeat-x;
+  color: #FFF;
+}
+#main_header a.home {
+  outline: none;
+  height: 100%;
+  width: 790px;
+  margin: 0 auto;
+  display: block;
+}
+#main_header a.home img {
+  height: 100% !important;
+  border: none;
+  max-height: 100%;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+#main_content {
+  margin: 0 auto;
+  width: 780px;
+  padding: 5px;
+}
+#main_footer {
+  border-top: #CCC solid 1px;
+  background: #ededed;
+  clear: both;
+}
+#footer {
+  text-align: center;
+  margin: 0 auto;
+  width: 780px;
+  padding: 5px;
+  color: #888;
+}
+#footer a {
+  color: #888;
+  text-decoration: none;
+}
+/* ---------------------------------------------------------------  */
+h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 12px;
+}
+h2 a {
+  color: #333;
+  padding: 5px;
+}
+h3 {
+  font-family: Arial, Helvetica, Sans-serif;
+  color: #333;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #EEE;
+  border-bottom: 1px solid #AAA;
+  padding: 5px 5px 5px 10px;
+}
+select {
+  border: #CCC solid 1px;
+  background: #FFF;
+}
+/* - Menu Principal ----------------------------------------------  */
+#navbar {
+  float: left;
+  width: 145px;
+}
+#navbar ul {
+  list-style: none;
+}
+#navbar ul li {
+  margin: 1px;
+  text-align: right;
+}
+#navbar ul ul {
+  margin: 1px;
+}
+#navbar ul li li {
+  margin: 0;
+}
+#navbar ul > li.sub-menu {
+  list-style-image: url('../img/arrow-down.png');
+}
+#navbar ul > li.sub-menu.active {
+  list-style-image: url('../img/arrow-up.png');
+}
+#navbar ul li.sub-menu.active > ul {
+  margin-right: 0;
+  margin-left: 15px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  display: block;
+  border-right: #EED solid 5px;
+  border-bottom: #DDC solid 1px;
+  outline: none;
+}
+#navbar ul li a:VISITED {
+  text-decoration: none;
+}
+a:VISITED {
+  text-decoration: none;
+}
+#navbar ul li a:HOVER {
+  border-right: #CCB solid 5px;
+  background: #ddddcc url("../img/btn_menu.jpg") repeat-y;
+  display: block;
+}
+#content {
+  float: left;
+  width: 600px;
+  background: #ededed;
+  padding: 10px;
+  margin: 0px 5px 5px 5px;
+  border: #DDD solid 1px;
+}
+p {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+/* - BreadCrum ---------------------------------------------------  */#breadcrumb a {
+  color: #345076;
+  font-size: 11px;
+  font-weight: bold;
+}
+#breadcrumb a:HOVER {
+  color: #CCC;
+}
+/* - Históricos de Receita e Despesa -----------------------------  */
+table.historico_valores {
+  font-size: 10px;
+}
+table.historico_valores tr th {
+  background: #DDD;
+  color: #333;
+}
+table.historico_valores tr:nth-child(2n) {
+  background: #EEE;
+  color: #555;
+}
+/* - Data de atualização dos dados ------------------------------  */
+#data_atualizacao {
+  color: #555;
+  text-align: center;
+}
+/* --------------------------------------------------------------  */#consulta_dados fieldset {
+  background: #ededed;
+  padding: 10px;
+  border: #CCC solid 1px;
+}
+#consulta_dados fieldset legend {
+  background: #FFF;
+  padding: 5px 15px 5px 15px;
+  border: #CCC solid 1px;
+}
+#consulta_dados fieldset legend a {
+  color: #345076;
+  font-size: 11px;
+  font-weight: bold;
+}
+#consulta_dados fieldset legend a:HOVER {
+  color: #CCC;
+}
+#consulta_dados fieldset p {
+  line-height: 1, 5em;
+  text-align: justify;
+}
+/* --------------------------------------------------------------  */
+.navbar_detalhe ul {
+  list-style: none;
+}
+.navbar_detalhe ul li a {
+  text-decoration: none;
+  color: #345076;
+  font-weight: bold;
+  padding: 5px;
+  display: block;
+  background: #FFF;
+  border: #CCC solid 1px;
+  margin-top: 5px;
+}
+.navbar_detalhe ul li a:HOVER {
+  background: #DDC;
+}
+/* --------------------------------------------------------------  */
+.glossario ul {
+  list-style-type: none;
+}
+.glossario ul li {
+  float: left;
+  display: inline;
+  margin-left: 3px;
+  width: 30%;
+}
+.glossario ul li a {
+  display: block;
+  text-decoration: none;
+  border: #CCC solid 1px;
+  text-align: center;
+  background: #FFF;
+  color: #345076;
+}
+.glossario ul li a:HOVER {
+  background: #DDC;
+}
+.itens_glossario ul {
+  list-style: none;
+}
+.itens_glossario ul li a {
+  text-decoration: none;
+  color: #345076;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+.itens_glossario ul li a:HOVER {
+  background: #DDC;
+}
+/* --------------------------------------------------------------  */
+.dados_empenhos table {
+  border-left: #CCC solid 1px;
+}
+.dados_empenhos table th {
+  background: #CCC;
+}
+.dados_empenhos table tr td {
+  border-right: #CCC solid 1px;
+  border-bottom: #CCC solid 1px;
+}
+.dados_empenhos table tr:nth-child(2n) {
+  background: #EEE;
+}
+/* --------------------------------------------------------------  */
+.lista_arquivo ul {
+  list-style: none;
+}
+.lista_arquivo ul li {
+  padding-top: 7px;
+}
+.lista_arquivo ul li span {
+	
+  background:transparent  url("../img/link16x16.png") no-repeat left top;
+	padding-left:2em;
+	padding-bottom:1em;
+}
+
+
+.lista_arquivo ul li a{
+  color : #444;
+  text-decoration: none;
+}
+
+.lista_arquivo ul li a:HOVER{
+	color : #333;
+  text-decoration: underline;
+}
+
+
+/**************TABELAS *****************************/
+div.main > table {
+  margin: 10px 0;
+  border-spacing: 0;
+  width: 100%; 
+}
+
+div.main > table th {
+  font-size: 10px;
+}
+
+div.main > table tr td, table tr th {
+  border-bottom: 1px solid #CCC;
+}
+
+div.main > table tr:first-child td,
+div.main > table tr:first-child th{
+  border-top: 1px solid #CCC;
+}
+
+div.main > table th{
+  padding: 3px;
+  text-align: left;
+}
+
+div.main > table td {
+  padding: 3px;
+  text-align: right;
+}
+
+div.main > table td.right, 
+div.main > table th.right{
+  text-align: right;
+}
+
+/* ************** FORMS ********************** */
+
+div.main form {
+
+  font-size: 12px;
+}
+
+div.main form div.input {
+  line-height: 30px;
+  height: 30px;
+}
+
+div.main form div.input label {
+  font-weight: bold;
+  margin: 0px 3px;
+  float: left;
+  clear: both;
+  width: 15%;
+  text-align: right;
+}
+
+div.main form div.input label::after{
+  content: ":";
+}
+
+div.main form div.input input, 
+div.main form div.input select {
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  outline: none;
+  padding: 2px 3px;
+  margin: 2px 0;
+  text-transform: uppercase;
+}
+
+div.main form div.input input[type="checkbox"] {
+  height: 30px;
+  border: none;
+  padding-top: 0;
+} 
+
+div.main form div.input select {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+div.main form div.input input:focus {
+  box-shadow: 0px 0px 3px 0px #DDD;  
+}
+
+form div.buttons {
+  height: 40px;
+  text-align: center;
+}
+
+div.buttons {
+  margin: 10px 0;
+  text-align: center;
+}
+
+div.buttons button,
+div.buttons a {
+  height: 25px;
+  margin: 2px 0;
+  padding: 3px;
+}
+
+div.buttons a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #0077cc;
+  margin: 10px;
+}
+
+div.buttons a:hover {
+  text-decoration: underline;
+}
+
+form .x1 {
+  width: 6%;
+}
+
+form .x5 {
+  width: 30%;
+}
+
+form .x6 {
+  width: 42%;
+  min-width: 42%;
+}
+
+
+div.main h3 {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 5px;
+} 
+
+div.main > p {
+  font-size: 14px;
+  text-align: center;
+}
+
+#ajax-loader {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#ajax-loader .ajax-loader-mask {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  filter: alpha(opacity=50);
+  zoom: 1;
+}
+
+#ajax-loader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+h4.no-records {
+  text-align: center;
+  padding: 6px;
+}
+
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+div.pull-right {
+  margin: 5px;
+}
+div.to-right {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+.label {
+  border-radius: 3px 3px 3px 3px;
+}
+.label {
+  background-color: #999999;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  padding: 2px 4px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+form div.error input,
+form div.error textarea,
+form div.error select {
+  border-color: #B94A48;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+/* REDACTOR------------------------------------------------------ */
+iframe.redactor_static {
+  min-height: 200px;
+}
+/* FORM --------------------------------------------------------- */
+form div.input.submit {
+  margin-top: 15px;
+}
+
+table td.action {
+  text-align: right;
+}
