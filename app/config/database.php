@@ -77,11 +77,11 @@ class DATABASE_CONFIG {
  
 		'driver'     => 'postgres',
 		'persistent' => false,
-		'host'       => '',
+		'host'       => '127.0.0.1',
         'port'       => '',
-		'login'      => '',
-		'password'   => '',
-		'database'   => '',
+		'login'      => 'ecidade',
+		'password'   => 'senha',
+		'database'   => 'portal_transparencia',
 		'prefix'     => '',
         'schema'     => 'transparencia',
  
