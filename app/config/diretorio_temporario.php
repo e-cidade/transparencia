@@ -1,0 +1,5 @@
+<?php 
+/**
+ * Configuração manual do diretório para geração dos arquivos de sessão
+ */
+ini_set('session.save_path', '/tmp'); 
